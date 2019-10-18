@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	font-family: "Trebuchet MS";
+}
+
+#navegacao{
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	background-color: #fff;
+	border-bottom: 5px solid #f3f3f3;
+	padding: 10px;
+}
+
+#area{
+	width: 820px;
+	margin: 0 auto;
+}
+
+#features{
+	margin-top: -5px;
+	background-color: #45c1c1;
+	height: 400px;
+	padding: 50px 10px 20px 30px;
+}
+
+#area-feature{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#service{
+	background-color: #f3f3f3;
+	width: 250px;
+	height: 300px;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	color: #606060;
+	margin: 10px;
+}
+
+.icon-feature{
+	position: absolute;
+	height: 50%;
+	width: 60%;
+	left: 55px;
+	top: 80px;
+}
+
+.paragrafo{
+	clear: both;
+	padding-top: 5px;
+}
+
+#service:hover{
+	box-shadow: 2px 2px 5px -2px #213c72;
+	margin-top: -1px;
+}
+
+#service h2{
+	font-family: "trebuchet MS";
+	padding-bottom: 10px;
+}
+
+footer{
+	padding: 50px 20px 50px 20px;
+	text-align: center;
+	background-color: #5974ba;
+	color: #fff;
+}
+
+.valor{
+	color: green;
+}
+
+.planos{
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.logo{
+	margin: 5px auto;
+	position: relative;
+	top: -2px;
+	left: -100px;
+	float: left;
+
+	height: 65px;
+	width: 65px;
+}
+
+
+
+#menu{
+	float: right;
+	margin: 15px auto;
+	padding: 10px 0;
+}
+
+a{
+	text-decoration: none;
+	padding-left: 10px;
+	font-family: "ubuntu";
+	font-size: 18px;
+}
+
+a:link{
+	color: #606060;
+}
+
+a:visited{
+	color: #606060;
+}
+
+a:hover{
+	color: #aff4ff;
+}
+
+a:active{
+	color: #aff4ff;
+}
+
+.imagem{
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.negrito{
+	font-weight: bold;
+	color: red;
+}
